@@ -1,0 +1,29 @@
+// Styles spécifiques à la page d'accueil
+.home {
+    // Exemple de style pour le titre principal
+    h1 {
+        font-size: 2.5rem;
+        color: $primary-color; // Utilisation d'une variable définie dans _variables.scss
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    // Exemple de style pour une section d'introduction
+    .intro {
+        padding: 2rem;
+        background-color: $background-color; // Utilisation d'une autre variable
+        border-radius: 8px;
+        text-align: center;
+
+        p {
+            font-size: 1.2rem;
+            color: $text-color; // Utilisation d'une variable pour la couleur du texte
+        }
+    }
+
+    // Styles pour les boutons d'appel à l'action
+    .cta-button {
+        @include button-styles; // Utilisation d'un mixin défini dans _mixins.scss
+        margin-top: 2rem;
+    }
+}

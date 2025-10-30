@@ -1,0 +1,27 @@
+@use "../abstracts/variables" as *;
+
+header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    nav{
+        width: 70%;
+        max-width: 1200px;
+        padding: 24px;
+
+        ul{
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            text-align: center;
+            align-items: center;
+            li{
+            &:nth-child(3){
+                img{
+                    width:350px;
+                }
+            }
+            }
+        }
+    }
+}

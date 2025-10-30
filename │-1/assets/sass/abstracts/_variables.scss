@@ -1,0 +1,24 @@
+// Variables Sass utilisées dans le projet
+
+// Couleurs
+$primary-color: #3498db; // Couleur principale
+$secondary-color: #2ecc71; // Couleur secondaire
+$accent-color: #e74c3c; // Couleur d'accent
+
+// Typographie
+$font-stack: 'Helvetica Neue', Arial, sans-serif; // Pile de polices
+$base-font-size: 16px; // Taille de police de base
+$heading-font-size: 2rem; // Taille de police des titres
+
+// Espacement
+$base-spacing: 1rem; // Espacement de base
+$large-spacing: 2rem; // Espacement large
+
+// Autres variables
+$border-radius: 4px; // Rayon de bordure
+$transition-speed: 0.3s; // Vitesse de transition
+
+// Breakpoints pour le responsive
+$breakpoint-mobile: 576px; // Mobile
+$breakpoint-tablet: 768px; // Tablette
+$breakpoint-desktop: 992px; // Bureau

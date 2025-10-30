@@ -1,0 +1,37 @@
+// Typographic styles for the site
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: $text-color; // Variable defined in _variables.scss
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    color: $heading-color; // Variable defined in _variables.scss
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+a {
+    color: $link-color; // Variable defined in _variables.scss
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+ul, ol {
+    margin-bottom: 1.5rem;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 4px solid $quote-border-color; // Variable defined in _variables.scss
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+}

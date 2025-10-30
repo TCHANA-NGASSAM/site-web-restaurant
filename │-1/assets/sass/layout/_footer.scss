@@ -1,0 +1,23 @@
+// Styles pour le pied de page du site
+
+.footer {
+    background-color: $footer-background-color; // Couleur de fond du pied de page
+    color: $footer-text-color; // Couleur du texte
+    padding: 20px 0; // Espacement vertical
+    text-align: center; // Centrer le texte
+
+    .footer-links {
+        margin: 10px 0; // Espacement entre les liens
+        a {
+            color: $footer-link-color; // Couleur des liens
+            text-decoration: none; // Pas de soulignement
+            &:hover {
+                text-decoration: underline; // Soulignement au survol
+            }
+        }
+    }
+
+    .footer-copy {
+        font-size: 14px; // Taille de la police pour le texte de copyright
+    }
+}

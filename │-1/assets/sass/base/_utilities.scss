@@ -1,0 +1,50 @@
+// Fichier contenant des classes utilitaires pour des styles spécifiques
+
+// Exemple de classes utilitaires
+.text-center {
+    text-align: center;
+}
+
+.margin-top {
+    margin-top: 1rem;
+}
+
+.margin-bottom {
+    margin-bottom: 1rem;
+}
+
+.padding {
+    padding: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.bg-primary {
+    background-color: $primary-color; // Assurez-vous que $primary-color est défini dans _variables.scss
+}
+
+.text-white {
+    color: white;
+}

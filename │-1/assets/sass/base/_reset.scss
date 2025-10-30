@@ -1,0 +1,38 @@
+/* 
+  Ce fichier est destiné à réinitialiser les styles par défaut du navigateur. 
+  Il peut inclure des styles pour les éléments HTML de base afin d'assurer une apparence cohérente sur tous les navigateurs.
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.15; /* Améliore la lisibilité */
+  -webkit-text-size-adjust: 100%; /* Empêche le redimensionnement du texte sur les appareils mobiles */
+}
+
+body {
+  font-family: sans-serif; /* Définit une police par défaut */
+  line-height: 1.5; /* Améliore la lisibilité du texte */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; /* Normalise le poids de la police des titres */
+}
+
+ul {
+  list-style: none; /* Supprime les puces des listes */
+}
+
+a {
+  text-decoration: none; /* Supprime le soulignement des liens */
+  color: inherit; /* Hérite de la couleur du texte parent */
+}
+
+img {
+  max-width: 100%; /* Rend les images responsives */
+  height: auto; /* Maintient le ratio d'aspect des images */
+}

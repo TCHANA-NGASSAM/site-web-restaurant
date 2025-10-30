@@ -1,0 +1,25 @@
+// Navigation styles for the website
+
+nav {
+    background-color: $primary-color; // Use a primary color variable
+    padding: 1rem;
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+
+        li {
+            a {
+                text-decoration: none;
+                color: $text-color; // Use a text color variable
+                padding: 0.5rem 1rem;
+                transition: background-color 0.3s;
+
+                &:hover {
+                    background-color: $hover-color; // Use a hover color variable
+                }
+            }
+        }
+    }
+}

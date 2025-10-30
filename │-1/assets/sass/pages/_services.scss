@@ -1,0 +1,35 @@
+// Ce fichier contient les styles spécifiques à la page des services. 
+
+.services {
+    padding: 2rem;
+    background-color: #f9f9f9;
+
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: $primary-color; // Utilisation d'une variable définie dans _variables.scss
+    }
+
+    .service-card {
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        
+        h2 {
+            font-size: 1.75rem;
+            color: $secondary-color; // Utilisation d'une autre variable
+        }
+
+        p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .btn {
+            @include button-styles; // Utilisation d'un mixin défini dans _mixins.scss
+        }
+    }
+}

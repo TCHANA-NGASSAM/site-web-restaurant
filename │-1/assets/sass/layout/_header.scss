@@ -1,0 +1,32 @@
+// Styles pour l'en-tête du site
+
+.header {
+    background-color: $primary-color; // Utilisation d'une variable pour la couleur de fond
+    padding: 20px;
+    text-align: center;
+    
+    .logo {
+        max-width: 150px;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin: 0 15px;
+
+            a {
+                text-decoration: none;
+                color: $text-color; // Utilisation d'une variable pour la couleur du texte
+                transition: color 0.3s;
+
+                &:hover {
+                    color: $hover-color; // Utilisation d'une variable pour la couleur au survol
+                }
+            }
+        }
+    }
+}

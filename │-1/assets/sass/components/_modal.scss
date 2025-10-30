@@ -1,0 +1,35 @@
+// Styles pour les modales
+
+.modal {
+    display: none; // Masquer par défaut
+    position: fixed; // Positionner de manière fixe
+    z-index: 1000; // Au-dessus des autres éléments
+    left: 0;
+    top: 0;
+    width: 100%; // Prendre toute la largeur
+    height: 100%; // Prendre toute la hauteur
+    overflow: auto; // Activer le défilement si nécessaire
+    background-color: rgba(0, 0, 0, 0.5); // Fond semi-transparent
+}
+
+.modal-content {
+    background-color: #fff; // Fond blanc pour le contenu
+    margin: 15% auto; // Centrer verticalement et horizontalement
+    padding: 20px; // Espacement interne
+    border: 1px solid #888; // Bordure
+    width: 80%; // Largeur du contenu
+}
+
+.close {
+    color: #aaa; // Couleur du bouton de fermeture
+    float: right; // Alignement à droite
+    font-size: 28px; // Taille de la police
+    font-weight: bold; // Gras
+}
+
+.close:hover,
+.close:focus {
+    color: black; // Couleur au survol
+    text-decoration: none; // Pas de soulignement
+    cursor: pointer; // Curseur en main
+}
