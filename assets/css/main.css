@@ -15,7 +15,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playball";
+  font-family: "Cormorant Garamond";
 }
 
 img, form, label, input, select, textarea {
@@ -441,7 +441,7 @@ header nav ul li:nth-child(3) img {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: 1200px;
+  width: 1018px;
   margin-top: 10px;
 }
 .cadre-equipe .cadre-items .item-conteneur {
